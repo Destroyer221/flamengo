@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3{
+    font-family: 'Archivo', sans-serif;
+    font-weight: normal;
+}
+body{
+    font-family: 'Kanit', sans-serif;
+    font-weight: normal;
+}
+
+header{
+    padding: 15px 0;
+    background-color: #830000;
+    color: #d8d8d8ff;
+}
+
+header nav li{
+display: inline;
+margin-left: 15px;
+color: #d8d8d8ff;
+font-size: 20px;
+}
+
+header nav li a{
+    color: #d8d8d8ff;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section{
+    color: #830000;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+.flamengo2 {
+    margin-right: 32px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.social img{
+    height: 24px;
+}
+
+.social li {
+display: inline;
+margin-right: 8px;
+}
+
+.social li a{
+    text-decoration: none;
+    }
+
+section h3{
+    margin-bottom: 16px;
+}
+footer{
+    background-color: #830000;
+    color: #d8d8d8ff;
+    padding: 16px 0;
+}
